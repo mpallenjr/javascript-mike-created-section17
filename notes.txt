@@ -80,3 +80,7 @@ Basically order of operations, what will get executed first,second, etc.
 
 
 
+//////////
+
+Section 17 - Strings and Template Literals
+

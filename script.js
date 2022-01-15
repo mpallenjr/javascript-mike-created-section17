@@ -126,3 +126,14 @@ console.log(now - 1991 > now - 2018);
 // JS knows to calcualter the now - X first, then compare the two values to display the boolean value in the console log.
 */
 
+const firstName = 'Mike';
+const job = 'Developer';
+const birthYear = 1986;
+const year = 2022;
+//old school
+const mike = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+//in the case above JavaScript will automatically convert the integer derived from year - birthYear into a string.  This is called type corrosion
+console.log(mike);
+//new school
+const mikeNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(mikeNew);
