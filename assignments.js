@@ -1,4 +1,4 @@
-/*
+
 
 // LECTURE: Values and Variables
 // 1. Declare variables called 'country', 'continent' and 'population' and
@@ -70,7 +70,16 @@ console.log( population > averagePopulation );
 
 let desctiption = country + " is in " + continent + ", and its " + population + " people speak " + language;
 
-console.log(desctiption)
+console.log(desctiption);
 
 
-*/
+
+
+
+// LECTURE: Strings and Template Literals
+// 1. Recreate the 'description' variable from the last assignment, this time
+// using the template literal syntax
+
+description = `${country} is in ${continent}. and it's ${population} people speak ${language}`;
+
+console.log(desctiption);

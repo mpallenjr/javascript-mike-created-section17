@@ -1,3 +1,4 @@
+/*
 // Coding Challenge #1
 // Mark and John are trying to compare their BMI (Body Mass Index), which is
 // calculated using the formula:
@@ -21,8 +22,6 @@ let markHeight;
 let johnMass;
 let johnHeight;
 
-
-
 markMass = 78;
 markHeight = 1.69;
 
@@ -31,7 +30,6 @@ johnHeight = 1.95;
 
 let markBmi = markMass / markHeight ** 2;
 let johnBmi = johnMass / johnHeight ** 2;
-
 
 console.log("Data 1:", markBmi, johnBmi)
 console.log(markBmi > johnBmi)
@@ -65,3 +63,5 @@ const BMIJohn = massJohn / heightJohn ** 2;
 const markHigherBMI = BMIMark > BMIJohn;
 
 console.log(BMIMark, BMIJohn, markHigherBMI); 
+*/
+
