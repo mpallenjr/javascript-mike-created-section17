@@ -137,3 +137,15 @@ console.log(mike);
 //new school
 const mikeNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 console.log(mikeNew);
+// can use backtics for all strings if you wantes
+console.log(`you can use backtics for all strings...`);
+
+//multi-line pre es6
+console.log('String with \n\
+multiple \n\
+lines');
+// es6 template literal
+console.log(`String
+multiple
+lines`);
+
